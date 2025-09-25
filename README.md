@@ -31,6 +31,17 @@ This project was created as my **CS50x Final Project** ❤️
 
 ## 📂 Project Structure  
 
+/assets → images, icons, demo gifs
+
+/font → custom fonts
+
+index.html → main file
+
+style.css → styling
+
+script.js → functionality
+
+README.md → documentation
 
 ---
 
@@ -40,7 +51,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/abolfazl-shadrouh/cafe-menu.git
+   https://github.com/abolfazl-shadrouh/cafe-menu.git
 
 2. Open the project folder:
   cd cafe-menu
@@ -49,18 +60,16 @@ To run this project locally:
 
 ---
 
-📸 Screenshots
-
-<p align="center"> <img src="assets/screenshot1.png" alt="Home Page" width="400"> <img src="assets/screenshot2.png" alt="Menu Page" width="400"> </p>
-
----
-
 🚧 Future Improvements
 
 🔹 Add a backend (Node.js / Django / Flask)
+
 🔹 Database for orders & reservations (MySQL / MongoDB)
+
 🔹 Online payment integration 💳
+
 🔹 Multi-language support 🌍
+
 🔹 Admin dashboard for managing orders 👨‍💼
 
 ---
@@ -80,4 +89,5 @@ Made with ❤️ by Abolfazl Shadrouh
 📜 License
 
 This project is under the MIT License ✅
+
 Feel free to use, share, and improve it with proper credit 🙌
