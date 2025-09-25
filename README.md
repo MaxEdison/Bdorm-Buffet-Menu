@@ -1,49 +1,41 @@
-<h1 align="center">☕ Cafe Menu</h1>
+# ☕ Cafe Menu — Online Restaurant Website
 
-<p align="center">
-  <img src="assets/banner.png" alt="Cafe Menu Banner" width="80%">
-</p>
-
-<p align="center">
-  <b>A modern & responsive cafe/restaurant website</b><br/>
-  Built with HTML, CSS, and JavaScript.
-</p>
-
-<p align="center">
-  <a href="https://github.com/abolfazl-shadrouh/cafe-menu/stargazers"><img src="https://img.shields.io/github/stars/abolfazl-shadrouh/cafe-menu?style=for-the-badge" alt="stars"/></a>
-  <a href="https://github.com/abolfazl-shadrouh/cafe-menu/network/members"><img src="https://img.shields.io/github/forks/abolfazl-shadrouh/cafe-menu?style=for-the-badge" alt="forks"/></a>
-  <a href="https://github.com/abolfazl-shadrouh/cafe-menu/issues"><img src="https://img.shields.io/github/issues/abolfazl-shadrouh/cafe-menu?style=for-the-badge" alt="issues"/></a>
-  <a href="https://github.com/abolfazl-shadrouh/cafe-menu/blob/main/LICENSE"><img src="https://img.shields.io/github/license/abolfazl-shadrouh/cafe-menu?style=for-the-badge" alt="license"/></a>
-</p>
+A modern, responsive **Cafe & Restaurant Website** that allows customers to view the menu, make reservations, and place online orders with a clean and interactive design.
 
 ---
 
-## 🎥 Demo Preview
+## 📖 Table of Contents
 
-<p align="center">
-  <img src="assets/demo.gif" alt="Cafe Menu Demo" width="700">
-</p>
-
-🔗 **Live Demo:** [Cafe Menu on GitHub Pages](https://abolfazl-shadrouh.github.io/cafe-menu/)  
+- [Features](#-features)  
+- [Tech Stack](#-tech-stack)  
+- [Installation](#-installation)  
+- [Demo](#-demo)  
+- [Screenshots](#-screenshots)  
+- [Future Improvements](#-future-improvements)  
+- [About Me](#-about-me)  
+- [License](#-license)  
 
 ---
 
 ## ✨ Features
 
-- 📱 **Responsive Design** — works perfectly on mobile, tablet, and desktop  
-- 🧾 **Interactive Menu** — organized into categories (drinks, food, desserts)  
-- 🎨 **Smooth Animations** — hover & click effects for better UX  
-- 📅 **Reservation Form** — users can book a table easily  
-- 🛒 **Online Order Form** — simple ordering system with JS validation  
-- 🧭 **Clean Navigation** — modern UI/UX  
+- Fully **responsive design** (works on mobile, tablet, and desktop)  
+- Interactive **menu with categories** (drinks, food, desserts, etc.)  
+- Smooth hover and click **animations**  
+- **Table reservation** form with validation  
+- **Online order** form with basic JavaScript validation  
+- Clean and modern **UI/UX navigation**  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — semantic and accessible markup  
-- **CSS3** — Flexbox, Grid, transitions, and animations  
-- **Vanilla JavaScript** — form validation, DOM interactions  
+- **HTML5** — semantic markup  
+- **CSS3** — layout, styling, Flexbox & Grid, animations  
+- **JavaScript (Vanilla)** — interactivity, form validation, DOM manipulation  
+
+Project structure:
+
 
 /assets ← images, icons, resources
 /font (Shabnam) ← custom font (if used)
