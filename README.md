@@ -60,7 +60,7 @@ To run this project locally:
 
 ---
 
-🚧 Future Improvements
+## 🚧 Future Improvements
 
 🔹 Add a backend (Node.js / Django / Flask)
 
@@ -74,7 +74,7 @@ To run this project locally:
 
 ---
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 
 Made with ❤️ by Abolfazl Shadrouh
 
@@ -86,7 +86,7 @@ Made with ❤️ by Abolfazl Shadrouh
 
 ---
 
-📜 License
+## 📜 License
 
 This project is under the MIT License ✅
 
