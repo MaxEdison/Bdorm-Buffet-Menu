@@ -28,7 +28,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('assets/hero-background.png') center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('assets/hero-background.WebP') center/cover fixed no-repeat;
   color: var(--primary-color);
   min-height: 100vh;
   display: flex;
