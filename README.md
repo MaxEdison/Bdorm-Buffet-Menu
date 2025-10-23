@@ -1,5 +1,11 @@
 # ☕ Cafe Menu  
 
+[![GitHub stars](https://img.shields.io/github/stars/abolfazl-shadrouh/registration-system?style=social)](https://github.com/abolfazl-shadrouh/registration-system/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/abolfazl-shadrouh/registration-system?style=social)](https://github.com/abolfazl-shadrouh/registration-system/network)
+[![License](https://img.shields.io/github/license/abolfazl-shadrouh/registration-system)](https://github.com/abolfazl-shadrouh/registration-system/blob/main/LICENSE)
+
+---
+
 Welcome to **Cafe Menu** project! 🎉  
 A simple and modern website for a **Cafe / Restaurant** where users can:  
 - 📖 View the menu  
