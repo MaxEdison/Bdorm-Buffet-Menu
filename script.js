@@ -1,12 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
   /* Fetch and Render Menu Items */
   const menuGrid = document.querySelector('.menu-grid');
-  fetch('./menu.json')
+  const menuFilters = document.querySelector('.menu-filters');
+
+  fetch('menu.json')
     .then(response => {
       if (!response.ok) throw new Error('Failed to load menu data');
       return response.json();
     })
     .then(data => {
+      // Extract unique categories dynamically
+      const categories = [...new Set(data.map(item => item.category))].sort();
+
+      // Dynamically generate filter buttons, including "All"
+      const allButton = document.createElement('button');
+      allButton.className = 'filter-btn active';
+      allButton.dataset.filter = 'all';
+      allButton.textContent = 'All';
+      menuFilters.appendChild(allButton);
+
+      categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.filter = cat;
+        btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1); // Capitalize for display
+        menuFilters.appendChild(btn);
+      });
+
+      // Render menu items
       data.forEach((item, index) => {
         const menuItem = document.createElement('div');
         menuItem.className = 'menu-item animate-on-scroll';
@@ -38,19 +59,16 @@ document.addEventListener('DOMContentLoaded', () => {
       // Re-attach add-to-cart listeners
       attachAddToCartListeners();
 
+      // Attach filter listeners dynamically
+      attachFilterListeners();
+
       // Apply initial filter (all)
-      filterButtons.forEach(btn => {
-        if (btn.classList.contains('active')) {
-          filterItems(btn.dataset.filter);
-        }
-      });
+      filterItems('all');
     })
     .catch(error => {
       console.error('Error loading menu:', error);
       menuGrid.innerHTML = '<p style="text-align: center; color: red;">Failed to load menu. Please try again later.</p>';
     });
-
-  /* Animations on scroll - moved inside fetch for dynamic items */
 
   /* Smooth scroll for anchors */
   document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
@@ -69,25 +87,26 @@ document.addEventListener('DOMContentLoaded', () => {
   setNavStyle();
   window.addEventListener('scroll', setNavStyle, { passive: true });
 
-  /* Menu Filters */
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const menuItems = () => document.querySelectorAll('.menu-item'); // Dynamic query
+  /* Menu Filters - Function to attach listeners dynamically */
+  const attachFilterListeners = () => {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
 
-  filterButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterButtons.forEach(b => {
-        b.classList.remove('active');
-        b.setAttribute('aria-selected', 'false');
+        filterItems(btn.dataset.filter);
       });
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-
-      filterItems(btn.dataset.filter);
     });
-  });
+  };
 
   const filterItems = (filter) => {
-    menuItems().forEach(item => {
+    const menuItems = document.querySelectorAll('.menu-item');
+    menuItems.forEach(item => {
       item.style.display = (filter === 'all' || item.dataset.category === filter) ? 'flex' : 'none';
     });
   };
@@ -229,9 +248,9 @@ document.addEventListener("DOMContentLoaded", ()=> {
     lerp: 0.070,
     smoothWheel: true,
   });
-	function raf(time) {
-		lenis.raf(time);
-		requestAnimationFrame(raf);
-	}
-	requestAnimationFrame(raf);
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
 });
