@@ -1,477 +1,477 @@
 [
   {
-    "category": "coffee",
-    "name": "Double espresso",
-    "description": "Rich and intense coffee made by forcing hot water through finely ground beans, delivering bold flavor and strong aroma.",
+    "category": "☕ قهوه",
+    "name": "☕ اسپرسو دوبل",
+    "description": "قهوه غلیظ و شدید که با فشار آب گرم از میان دانه‌های آسیاب شده ریز عبور داده می‌شود، طعم جسورانه و عطر قوی ارائه می‌دهد. ✨",
     "price": 2.50,
     "image": "assets/double-espresso.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Specialty espresso",
-    "description": "Crafted with carefully selected beans and precise brewing, offering a smooth body, balanced flavor, and aromatic finish.",
+    "category": "☕ قهوه",
+    "name": "☕ اسپرسو ویژه",
+    "description": "با دانه‌های انتخاب شده با دقت و دم کردن دقیق، بدنه نرم، طعم متعادل و پایان معطر ارائه می‌دهد. 🌟",
     "price": 3.50,
     "image": "assets/specialty-espresso.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Caramel latte",
-    "description": "Sweet and creamy blend of espresso, steamed milk, and rich caramel syrup, topped with a light foam.",
+    "category": "☕ قهوه",
+    "name": "🥛 لاته کارامل",
+    "description": "ترکیب شیرین و خامه‌ای اسپرسو، شیر بخارپز و شربت کارامل غنی، با فوم سبک. 🍬",
     "price": 4.50,
     "image": "assets/caramel-latte.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Cappuccino",
-    "description": "Smooth combination of espresso, steamed milk, and a thick layer of velvety foam, offering a balanced rich flavor.",
+    "category": "☕ قهوه",
+    "name": "🥛 کاپوچینو",
+    "description": "ترکیب نرم اسپرسو، شیر بخارپز و لایه ضخیم فوم مخملی، طعم غنی متعادل ارائه می‌دهد. ☁️",
     "price": 3.80,
     "image": "assets/cappuccino.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Hot chocolate",
-    "description": "Creamy and comforting drink made with steamed milk and rich chocolate, topped with a light froth or whipped cream.",
+    "category": "☕ قهوه",
+    "name": "🍫 شکلات داغ",
+    "description": "نوشیدنی خامه‌ای و آرام‌بخش با شیر بخارپز و شکلات غنی، با فوم سبک یا خامه زده. 🔥",
     "price": 3.50,
     "image": "assets/hot-chocolate.WebP"
   },
   {
-    "category": "coffee",
-    "name": "White chocolate",
-    "description": "Velvety and sweet drink made with steamed milk and smooth white chocolate, creating a creamy and indulgent flavor.",
+    "category": "☕ قهوه",
+    "name": "🍫 شکلات سفید",
+    "description": "نوشیدنی مخملی و شیرین با شیر بخارپز و شکلات سفید نرم، طعم خامه‌ای و indulgent. ❄️",
     "price": 4.00,
     "image": "assets/white-chocolate.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Pink chocolate",
-    "description": "A creamy and sweet drink made with steamed milk and ruby (pink) chocolate, offering a fruity and smooth experience.",
+    "category": "☕ قهوه",
+    "name": "🍫 شکلات صورتی",
+    "description": "نوشیدنی خامه‌ای و شیرین با شیر بخارپز و شکلات روبی (صورتی)، تجربه میوه‌ای و نرم. 🌸",
     "price": 4.20,
     "image": "assets/pink-chocolate.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Nutella milk",
-    "description": "Rich and creamy drink made with steamed milk and smooth Nutella, delivering a chocolatey-hazelnut experience",
+    "category": "☕ قهوه",
+    "name": "🥛 شیر نوتلا",
+    "description": "نوشیدنی غنی و خامه‌ای با شیر بخارپز و نوتلا نرم، تجربه شکلاتی-فندقی. 🌰",
     "price": 4.50,
     "image": "assets/nutella-milk.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Ice matcha latte",
-    "description": "Chilled and refreshing drink made with finely powdered green tea and milk, served over ice for a smooth and creamy texture.",
+    "category": "☕ قهوه",
+    "name": "🧊 لاته ماتچا یخ",
+    "description": "نوشیدنی خنک و خنک با چای سبز پودر شده ریز و شیر، روی یخ برای بافت نرم و خامه‌ای. 🍵",
     "price": 4.50,
     "image": "assets/Iced-Matcha-Latte.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Chai Latte",
-    "description": "Warm and aromatic drink made with black tea, steamed milk, and a blend of spices, creating a comforting and creamy experience.",
+    "category": "☕ قهوه",
+    "name": "🥛 لاته چای",
+    "description": "نوشیدنی گرم و معطر با چای سیاه، شیر بخارپز و مخلوط ادویه، تجربه آرام‌بخش و خامه‌ای. 🌿",
     "price": 4.00,
     "image": "assets/chai-latte.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Chamomile",
-    "description": "Soothing herbal infusion made from dried chamomile flowers, offering a gentle and calming experience.",
+    "category": "☕ قهوه",
+    "name": "🌼 بابونه",
+    "description": "اینفیوژن گیاهی آرام‌بخش از گل‌های بابونه خشک، تجربه ملایم و آرام. 😌",
     "price": 3.50,
     "image": "assets/chamomile.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Mocha",
-    "description": "Rich and indulgent drink made with espresso, steamed milk, and chocolate, topped with a light froth.",
+    "category": "☕ قهوه",
+    "name": "🍫 موکا",
+    "description": "نوشیدنی غنی و indulgent با اسپرسو، شیر بخارپز و شکلات، با فوم سبک. 🔥",
     "price": 4.50,
     "image": "assets/Mocha.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Masalan tea",
-    "description": "Refreshing and aromatic drink made by steeping selected tea leaves in hot water, offering a warm and soothing experience.",
+    "category": "☕ قهوه",
+    "name": "🍵 چای",
+    "description": "نوشیدنی خنک و معطر که با دم کردن برگ‌های چای انتخاب‌شده در آب گرم تهیه می‌شود و تجربه‌ای گرم و آرام‌بخش ارائه می‌دهد. ☕",
     "price": 3.00,
     "image": "assets/masala_tea.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Turkish cofee",
-    "description": "Strong and aromatic coffee made by slowly brewing finely ground coffee with water (and optionally sugar) in a cezve.",
+    "category": "☕ قهوه",
+    "name": "☕ قهوه ترک",
+    "description": "قهوه قوی و معطر که با دم کردن آهسته قهوه آسیاب‌شده ریز با آب (و در صورت تمایل شکر) در جِزوه تهیه می‌شود. 🇹🇷",
     "price": 3.50,
     "image": "assets/turkish-coffee.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Spirulina",
-    "description": "Nutritious and vibrant green drink made with spirulina powder and milk or water, served chilled for a smooth and refreshing experience.",
+    "category": "☕ قهوه",
+    "name": "🌀 اسپیرولینا",
+    "description": "نوشیدنی مغذی و پرجنب‌وجوش سبز که با پودر اسپیرولینا و شیر یا آب تهیه می‌شود و سرد سرو می‌شود تا تجربه‌ای نرم و خنک ارائه دهد. 💚",
     "price": 4.50,
     "image": "assets/spirulina.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Iced american",
-    "description": "Chilled and smooth coffee made by pouring espresso over ice and adding cold water, delivering a refreshing and bold experience.",
+    "category": "☕ قهوه",
+    "name": "🧊 آیسد آمریکن",
+    "description": "قهوه خنک و نرم که با ریختن اسپرسو روی یخ و افزودن آب سرد تهیه می‌شود و تجربه‌ای خنک و جسورانه ارائه می‌دهد. ❄️",
     "price": 3.50,
     "image": "assets/Iced-Americano.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Iced latte",
-    "description": "Chilled and creamy drink made with espresso and cold milk poured over ice, creating a smooth and refreshing experience.",
+    "category": "☕ قهوه",
+    "name": "🧊 آیسد لاته",
+    "description": "نوشیدنی خنک و خامه‌ای که با اسپرسو و شیر سرد روی یخ تهیه می‌شود و تجربه‌ای نرم و خنک ایجاد می‌کند. 🥤",
     "price": 4.00,
     "image": "assets/iced-latte.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Strawberry frappe",
-    "description": "Sweet and icy blended drink made with strawberries, milk, and ice, topped with a light froth or whipped cream.",
+    "category": "☕ قهوه",
+    "name": "🍓 فراپه توت‌فرنگی",
+    "description": "نوشیدنی شیرین و یخی مخلوط‌شده با توت‌فرنگی، شیر و یخ، که با فوم سبک یا خامه زده‌شده تزئین می‌شود. ❄️",
     "price": 4.50,
     "image": "assets/Strawberry-frappe.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Green Tea",
-    "description": "Refreshing and soothing drink made by steeping high-quality green tea leaves in hot water, offering a light and calming experience.",
+    "category": "☕ قهوه",
+    "name": "🍵 چای سبز",
+    "description": "نوشیدنی خنک و آرام‌بخش که با دم کردن برگ‌های چای سبز باکیفیت در آب گرم تهیه می‌شود و تجربه‌ای سبک و آرام ارائه می‌دهد. 🌿",
     "price": 3.50,
     "image": "assets/green-tea.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Blue white",
-    "description": "Creamy and visually striking drink made with a blend of blue butterfly pea flower and milk, served chilled for a smooth and refreshing experience.",
+    "category": "☕ قهوه",
+    "name": "💙 آبی سفید",
+    "description": "نوشیدنی خامه‌ای و بصری جذاب که با ترکیب گل نخلک پروانه‌ای آبی و شیر تهیه می‌شود و سرد سرو می‌شود تا تجربه‌ای نرم و خنک ارائه دهد. 🦋",
     "price": 4.20,
     "image": "assets/blue-white.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Coffee frappe",
-    "description": "Icy and creamy blended drink made with coffee, milk, and ice, topped with a light froth or whipped cream.",
+    "category": "☕ قهوه",
+    "name": "🧊 فراپه قهوه",
+    "description": "نوشیدنی یخی و خامه‌ای مخلوط‌شده با قهوه، شیر و یخ، که با فوم سبک یا خامه زده‌شده تزئین می‌شود. ❄️",
     "price": 4.50,
     "image": "assets/coffee-frappe.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Earl Grey",
-    "description": "Aromatic and classic black tea infused with bergamot, served hot for a soothing and elegant experience.",
+    "category": "☕ قهوه",
+    "name": "🍵 ارل گری",
+    "description": "چای سیاه معطر و کلاسیک که با برنگاموت طعم‌دار شده و داغ سرو می‌شود تا تجربه‌ای آرام‌بخش و شیک ارائه دهد. 👑",
     "price": 3.50,
     "image": "assets/earl-grey.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Croissant",
-    "description": "Buttery and flaky pastry with a light, airy texture, perfect for a breakfast treat or snack.",
+    "category": "☕ قهوه",
+    "name": "🥐 کروسان",
+    "description": "پنیر و لایه‌لایه با بافت سبک و هوادار، مناسب برای صبحانه یا میان‌وعده. 🥖",
     "price": 2.50,
     "image": "assets/croissant.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Classic waffle",
-    "description": "Crispy on the outside and soft on the inside, this golden waffle is perfect for breakfast or a sweet treat, served with optional toppings.",
+    "category": "☕ قهوه",
+    "name": "🥞 وافل کلاسیک",
+    "description": "خارجی ترد و داخلی نرم، این وافل طلایی برای صبحانه یا میان‌وعده شیرین، با پوشش اختیاری. 🍯",
     "price": 4.00,
     "image": "assets/Classic-Waffles.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Ice cream waffle",
-    "description": "Crispy waffle topped with creamy ice cream and your choice of sweet toppings, creating a delightful dessert experience.",
+    "category": "☕ قهوه",
+    "name": "🍨 وافل بستنی",
+    "description": "وافل ترد با بستنی خامه‌ای و پوشش شیرین دلخواه، تجربه‌ای لذت‌بخش از دسر. 🍦",
     "price": 5.50,
     "image": "assets/Ice-cream-waffle.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Blueberry Muffin",
-    "description": "Soft and moist muffin packed with fresh blueberries, offering a sweet and tender treat.",
+    "category": "☕ قهوه",
+    "name": "🫐 مافین بلوبری",
+    "description": "مافین نرم و مرطوب پر از بلوبری تازه، با طعم شیرین و لطیف. 🍇",
     "price": 3.50,
     "image": "assets/blueberry-muffin.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Chocolate Chip Cookie",
-    "description": "Chewy and buttery cookie loaded with rich chocolate chips, perfect for a sweet snack.",
+    "category": "☕ قهوه",
+    "name": "🍪 کوکی چیپ شکلات",
+    "description": "کوکی جویدنی و کره‌ای با چیپ‌های شکلات غنی، مناسب برای میان‌وعده شیرین. 🍫",
     "price": 2.50,
     "image": "assets/chocolate-chip-cookie.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Cinnamon Roll",
-    "description": "Soft and fluffy pastry swirled with cinnamon and sugar, often topped with a sweet glaze.",
+    "category": "☕ قهوه",
+    "name": "🍥 رول دارچین",
+    "description": "پنیر نرم و پف‌دار با دارچین و شکر، اغلب با پوشش شیرین. 🌰",
     "price": 3.50,
     "image": "assets/cinnamon-roll.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Fruit plate",
-    "description": "Fresh assortment of seasonal fruits, carefully sliced and served for a light and refreshing treat.",
+    "category": "☕ قهوه",
+    "name": "🍉 بشقاب میوه",
+    "description": "مجموعه تازه از میوه‌های فصلی، برش‌خورده و سرو شده برای میان‌وعده سبک و تازه. 🌈",
     "price": 4.00,
     "image": "assets/fresh_fruit_plate.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Kunafa",
-    "description": "Sweet and rich Middle Eastern dessert made with shredded pastry, layered with cheese or cream, and soaked in fragrant syrup.",
+    "category": "☕ قهوه",
+    "name": "🥮 کنافه",
+    "description": "دسر شیرین و غنی خاورمیانه‌ای با پنیر یا خامه، خیسانده در شربت معطر. 🍯",
     "price": 5.50,
     "image": "assets/kunafa.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Kunafa ice cream",
-    "description": "Creamy ice cream served with shredded pastry and sweet syrup, combining the classic flavors of kunafa in a chilled dessert.",
+    "category": "☕ قهوه",
+    "name": "🍨 کنافه بستنی",
+    "description": "بستنی خامه‌ای با پنیر و شربت شیرین، ترکیب طعم‌های کلاسیک کنافه در دسر سرد. ❄️",
     "price": 6.00,
     "image": "assets/kunafa-ice-cream.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Ice cream cake",
-    "description": "Layered dessert combining creamy ice cream and cake, often topped with chocolate, fruits, or whipped cream.",
+    "category": "☕ قهوه",
+    "name": "🍰 کیک بستنی",
+    "description": "دسر لایه‌ای با بستنی خامه‌ای و کیک، اغلب با شکلات، میوه یا خامه زده‌شده. 🎂",
     "price": 6.50,
     "image": "assets/Ice-cream-cake.WebP"
   },
   {
-    "category": "coffee",
-    "name": "Chocolate cake",
-    "description": "Moist and rich chocolate cake layered with smooth chocolate frosting, perfect for a decadent dessert.",
+    "category": "☕ قهوه",
+    "name": "🍫 کیک شکلاتی",
+    "description": "کیک مرطوب و غنی شکلاتی با فراستینگ شکلات نرم، عالی برای دسر decadent. 🔥",
     "price": 5.50,
     "image": "assets/Chocolate-cake.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Iranian breakfast",
-    "description": "Traditional Iranian breakfast featuring a variety of fresh bread, cheeses, herbs, eggs, and jams, served with tea.",
+    "category": "🍳 صبحانه",
+    "name": "🇮🇷 صبحانه ایرانی",
+    "description": "صبحانه سنتی ایرانی شامل انواع نان تازه، پنیر، سبزیجات، تخم‌مرغ و مربا، همراه با چای. ☕",
     "price": 6.00,
     "image": "assets/iran-breakfast.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Sausage breakfast",
-    "description": "Hearty breakfast plate with savory sausages, eggs, toast, and optional sides like tomatoes or hash browns.",
+    "category": "🍳 صبحانه",
+    "name": "🌭 صبحانه سوسیس",
+    "description": "صفحه صبحانه‌ای مقوی با سوسیس‌های خوشمزه، تخم‌مرغ، نان تست و گزینه‌های جانبی اختیاری مانند گوجه‌فرنگی یا سیب‌زمینی سرخ‌شده. 🍳",
     "price": 7.50,
     "image": "assets/Breakfast-sausage.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Pomodora",
-    "description": "Classic breakfast dish with scrambled or fried eggs, sautéed tomatoes, and herbs, served with bread.",
+    "category": "🍳 صبحانه",
+    "name": "🍅 پومدورا",
+    "description": "غذای صبحانه کلاسیک با تخم‌مرغ‌های هم‌زده یا سرخ‌شده، گوجه‌فرنگی تفت‌داده و سبزیجات، سرو شده با نان. 🥖",
     "price": 6.50,
     "image": "assets/pomodora-breakfast.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "American breakfast",
-    "description": "Hearty breakfast platter including eggs, bacon or sausage, toast or pancakes, and optional sides like hash browns.",
+    "category": "🍳 صبحانه",
+    "name": "🇺🇸 صبحانه آمریکایی",
+    "description": "صفحه صبحانه‌ای مقوی شامل تخم‌مرغ، بیکن یا سوسیس، نان تست یا پنکیک، و گزینه‌های جانبی اختیاری مانند سیب‌زمینی سرخ‌شده. 🍔",
     "price": 8.00,
     "image": "assets/American-breakfast.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "English breakfast",
-    "description": "Traditional English breakfast featuring eggs, sausages, bacon, baked beans, grilled tomatoes, mushrooms, and toast.",
+    "category": "🍳 صبحانه",
+    "name": "🇬🇧 صبحانه انگلیسی",
+    "description": "صبحانه سنتی انگلیسی شامل تخم‌مرغ، سوسیس، بیکن، لوبیا پخته، گوجه‌فرنگی کبابی، قارچ و نان تست. 🍳",
     "price": 8.50,
     "image": "assets/english-breakfast.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Meat lovers",
-    "description": "Hearty breakfast plate loaded with various meats like bacon, sausages, and ham, served with eggs and toast.",
+    "category": "🍳 صبحانه",
+    "name": "🥩 عاشقان گوشت",
+    "description": "صفحه صبحانه‌ای مقوی پر از انواع گوشت مانند بیکن، سوسیس و هم، سرو شده با تخم‌مرغ و نان تست. 🔥",
     "price": 9.00,
     "image": "assets/meat-lovers.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Boricuas",
-    "description": "Puerto Rican-inspired breakfast featuring seasoned meats, eggs, plantains, and rice or bread.",
+    "category": "🍳 صبحانه",
+    "name": "🇵🇷 بوریکواس",
+    "description": "صبحانه الهام‌گرفته از پورتوریکو شامل گوشت‌های مزه‌دار، تخم‌مرغ، موز رسیده، و برنج یا نان. 🍌",
     "price": 8.50,
     "image": "assets/boricuas.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Guacamole omelette",
-    "description": "Fluffy omelette filled with creamy guacamole, served with toast or a side of fresh vegetables.",
+    "category": "🍳 صبحانه",
+    "name": "🥑 املت گواکاموله",
+    "description": "املت پف‌دار پر شده با گواکاموله خامه‌ای، سرو شده با نان تست یا سبزیجات تازه. 🍳",
     "price": 7.50,
     "image": "assets/Guacamole-omelette.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "French test",
-    "description": "Light and fluffy French toast made with bread soaked in a sweet egg mixture, often topped with syrup or powdered sugar.",
+    "category": "🍳 صبحانه",
+    "name": "🥖 تست فرانسوی",
+    "description": "نان تست سبک و پف‌دار تهیه شده با نانی که در مخلوط تخم‌مرغ شیرین خیسانده شده، اغلب با شربت یا شکر پودر تزئین می‌شود. 🍯",
     "price": 6.50,
     "image": "assets/French-test.WebP"
   },
   {
-    "category": "breakfast",
-    "name": "Breakfast chilaquiles",
-    "description": "Traditional Mexican breakfast dish with crispy tortilla chips, scrambled eggs, cheese, salsa, and optional toppings like avocado or sour cream.",
+    "category": "🍳 صبحانه",
+    "name": "🇲🇽 چیلاکویلس صبحانه",
+    "description": "غذای صبحانه سنتی مکزیکی با چیپس تورتیلا ترد، تخم‌مرغ‌های هم‌زده، پنیر، سالسا، و گزینه‌های تزئینی اختیاری مانند آووکادو یا خامه ترش. 🌶️",
     "price": 8.00,
     "image": "assets/Breakfast-chilaquiles.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Shredded kebab",
-    "description": "Tender and juicy shredded meat kebab, seasoned and grilled to perfection, served with rice or bread.",
+    "category": "🍲 رستوران",
+    "name": "🥙 کباب ریشی",
+    "description": "کباب گوشت ریشی نرم و آبدار، با ادویه‌جات مزه‌دار شده و به‌خوبی کباب شده، همراه با برنج یا نان سرو می‌شود. 🔥",
     "price": 12.00,
     "image": "assets/Shredded-kebab.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Grilled chicken",
-    "description": "Chenjeh has a very pleasant taste and is a favorite of many people.",
+    "category": "🍲 رستوران",
+    "name": "🍗 مرغ کبابی",
+    "description": "چنجه طعمی بسیار خوشایند دارد و مورد علاقه بسیاری از مردم است. 🌟",
     "price": 11.50,
     "image": "assets/Grilled-chicken.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Rice",
-    "description": "Steamed and fluffy white rice, perfect as a side to complement any main dish.",
+    "category": "🍲 رستوران",
+    "name": "🍚 برنج",
+    "description": "برنج سفید بخارپز و پفکی، که به‌عنوان همراه هر غذای اصلی عالی است. 🍲",
     "price": 3.50,
     "image": "assets/rice.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Grilled chicken breast",
-    "description": "Lean and tender grilled chicken breast, seasoned with herbs and spices, served with a side of vegetables or rice.",
+    "category": "🍲 رستوران",
+    "name": "🍗 سینه مرغ کبابی",
+    "description": "سینه مرغ بدون چربی و نرم کبابی، با گیاهان و ادویه‌جات مزه‌دار شده، همراه با سبزیجات یا برنج سرو می‌شود. 🥦",
     "price": 12.50,
     "image": "assets/Grilled-chicken-breast.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Sour Chicken",
-    "description": "Tender chicken cooked in a tangy and savory sauce, served with rice or bread.",
+    "category": "🍲 رستوران",
+    "name": "🍗 مرغ ترش",
+    "description": "مرغ نرم که در سس ترش و خوشمزه پخته شده، همراه با برنج یا نان سرو می‌شود. 🍋",
     "price": 12.50,
     "image": "assets/Sour-Chicken.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Classic hamburger",
-    "description": "Juicy beef patty served in a soft bun with lettuce, tomato, onion, and pickles, with optional cheese or sauces.",
+    "category": "🍲 رستوران",
+    "name": "🍔 همبرگر کلاسیک",
+    "description": "برگر گوشت گاو آبدار که در نان نرم با کاهو، گوجه‌فرنگی، پیاز و خیارشور سرو می‌شود، با پنیر یا سس اختیاری. 🧀",
     "price": 9.00,
     "image": "assets/Classic-hamburger.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Hot Dog",
-    "description": "Grilled sausage served in a soft bun with ketchup, mustard, and optional toppings like onions or relish.",
+    "category": "🍲 رستوران",
+    "name": "🌭 هات‌داگ",
+    "description": "سوسیس کبابی که در نان نرم با کچاپ، خردل و افزودنی‌های اختیاری مانند پیاز یا ترشی سرو می‌شود. 🍅",
     "price": 7.00,
     "image": "assets/hotdog.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Classic fries",
-    "description": "Crispy and golden potato fries, lightly salted and served as a perfect side or snack.",
+    "category": "🍲 رستوران",
+    "name": "🍟 سیب‌زمینی سرخ‌کرده کلاسیک",
+    "description": "سیب‌زمینی سرخ‌شده ترد و طلایی، با نمک کم و به‌عنوان همراه یا میان‌وعده عالی سرو می‌شود. 🔥",
     "price": 3.50,
     "image": "assets/classic-fries.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Beef fries",
-    "description": "Crispy golden fries topped with seasoned beef, melted cheese, and optional sauces for a hearty treat.",
+    "category": "🍲 رستوران",
+    "name": "🍟 سیب‌زمینی سرخ‌کرده با گوشت گاو",
+    "description": "سیب‌زمینی سرخ‌شده طلایی که با گوشت گاو مزه‌دار شده، پنیر ذوب‌شده و سس‌های اختیاری برای یک میان‌وعده مقوی سرو می‌شود. 🥩",
     "price": 6.50,
     "image": "assets/Beef-fries.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Roast beef panini",
-    "description": "Toasted panini filled with tender roast beef, melted cheese, and fresh vegetables, served warm and crispy.",
+    "category": "🍲 رستوران",
+    "name": "🥪 پانینی گوشت گاو کبابی",
+    "description": "پانینی برشته شده که با گوشت گاو کبابی نرم، پنیر ذوب‌شده و سبزیجات تازه پر شده، گرم و ترد سرو می‌شود. 🔥",
     "price": 8.50,
     "image": "assets/Roast-Beef-Panini.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Breaded fillet plate",
-    "description": "Crispy breaded fish fillet served with rice, fries, or vegetables for a hearty and delicious meal.",
+    "category": "🍲 رستوران",
+    "name": "🐟 بشقاب فیله سوخاری",
+    "description": "فیله ماهی سوخاری ترد که با برنج، سیب‌زمینی سرخ‌کرده یا سبزیجات برای یک وعده غذایی مقوی و خوشمزه سرو می‌شود. 🍽️",
     "price": 11.00,
     "image": "assets/Breaded-fillet-plate.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Steak",
-    "description": "Juicy and tender steak grilled to perfection, seasoned with herbs and spices, served with your choice of sides.",
+    "category": "🍲 رستوران",
+    "name": "🥩 استیک",
+    "description": "استیک آبدار و نرم کبابی به کمال، با گیاهان و ادویه، با طرف دلخواه. 🔥",
     "price": 15.00,
     "image": "assets/Steak.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Vegetable pizza",
-    "description": "Oven-baked pizza topped with fresh vegetables, melted cheese, and savory tomato sauce on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا سبزیجات",
+    "description": "پیتزا پخته شده در فر با سبزیجات تازه، پنیر ذوب، سس گوجه فرنگی خوشمزه روی کراست ترد. 🥦",
     "price": 10.00,
     "image": "assets/Vegetable-pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Meat and mushroom pizza",
-    "description": "Oven-baked pizza topped with savory meat, fresh mushrooms, melted cheese, and rich tomato sauce on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا گوشت و قارچ",
+    "description": "پیتزا پخته شده در فر با گوشت خوشمزه، قارچ تازه، پنیر ذوب و سس گوجه غنی روی کراست ترد. 🍄",
     "price": 11.50,
     "image": "assets/Meat-and-mushroom-pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Chicken Pesto Pizza",
-    "description": "Oven-baked pizza topped with tender chicken, creamy pesto sauce, melted cheese, and fresh herbs on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا پستو مرغ",
+    "description": "پیتزا پخته شده در فر با مرغ نرم، سس پستو خامه‌ای، پنیر ذوب و گیاهان تازه روی کراست ترد. 🌿",
     "price": 18.75,
     "image": "assets/Chicken-Pesto-Pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Pepperoni pizza",
-    "description": "Oven-baked pizza topped with spicy pepperoni slices, melted cheese, and rich tomato sauce on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا پپرونی",
+    "description": "پیتزا پخته شده در فر با برش‌های پپرونی تند، پنیر ذوب و سس گوجه غنی روی کراست ترد. 🌶️",
     "price": 11.00,
     "image": "assets/Pepperoni-pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Margherita pizza",
-    "description": "Classic oven-baked pizza topped with fresh tomatoes, mozzarella cheese, and basil on a crispy golden crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا مارگاریتا",
+    "description": "پیتزا کلاسیک پخته شده در فر با گوجه تازه، پنیر موزارلا و ریحان روی کراست طلایی ترد. 🍅",
     "price": 9.50,
     "image": "assets/Margherita-pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Garlic Steak Pizza",
-    "description": "Oven-baked pizza topped with tender steak slices, garlic, melted cheese, and fresh herbs on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا استیک سیر",
+    "description": "پیتزا پخته شده در فر با برش‌های استیک نرم، سیر، پنیر ذوب و گیاهان تازه روی کراست ترد. 🧄",
     "price": 12.50,
     "image": "assets/Garlic-Steak-Pizza.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Pot Roast Pizza",
-    "description": "Oven-baked pizza topped with tender pot roast, melted cheese, and savory tomato sauce on a crispy crust.",
+    "category": "🍲 رستوران",
+    "name": "🍕 پیتزا رواست پات",
+    "description": "پیتزا پخته شده در فر با رواست پات نرم، پنیر ذوب و سس گوجه خوشمزه روی کراست ترد. 🥘",
     "price": 12.00,
     "image": "assets/Pot-Roast-Pizzas.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Lasagna",
-    "description": "Layers of pasta, rich meat sauce, creamy béchamel, and melted cheese, baked to golden perfection.",
+    "category": "🍲 رستوران",
+    "name": "🍝 لازانیا",
+    "description": "لایه‌های پاستا، سس گوشت غنی، بچامل خامه‌ای و پنیر ذوب، پخته شده تا طلایی کامل. 🔥",
     "price": 12.50,
     "image": "assets/Lasagna.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Chicken Alfredo",
-    "description": "Creamy pasta dish with tender chicken, rich Alfredo sauce, and Parmesan cheese, served hot.",
+    "category": "🍲 رستوران",
+    "name": "🍝 آلفردو مرغ",
+    "description": "غذای پاستا خامه‌ای با مرغ نرم، سس آلفردو غنی و پنیر پارمسان، گرم سرو. 🧀",
     "price": 12.00,
     "image": "assets/Chicken-Alfredo.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Beef Alfredo",
-    "description": "Creamy pasta dish with tender beef, rich Alfredo sauce, and Parmesan cheese, served hot.",
+    "category": "🍲 رستوران",
+    "name": "🍝 آلفردو گوشت",
+    "description": "غذای پاستا خامه‌ای با گوشت نرم، سس آلفردو غنی و پنیر پارمسان، گرم سرو. 🥩",
     "price": 12.50,
     "image": "assets/Beef-Alfredo.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Chicken Pesto",
-    "description": "Pasta tossed with tender chicken, creamy pesto sauce, and fresh herbs, served hot for a flavorful meal.",
+    "category": "🍲 رستوران",
+    "name": "🍝 پستو مرغ",
+    "description": "پاستا با مرغ نرم، سس پستو خامه‌ای و گیاهان تازه، گرم برای وعده خوشمزه. 🌿",
     "price": 12.00,
     "image": "assets/Chicken-pesto.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Soup",
-    "description": "Warm and comforting soup made with fresh ingredients, herbs, and spices, perfect as a starter or light meal.",
+    "category": "🍲 رستوران",
+    "name": "🥣 سوپ",
+    "description": "سوپ گرم و آرام‌بخش با مواد تازه، گیاهان و ادویه، عالی برای پیش‌غذا یا وعده سبک. 🔥",
     "price": 5.00,
     "image": "assets/Soup.WebP"
   },
   {
-    "category": "restaurant",
-    "name": "Salad",
-    "description": "Fresh and crisp salad made with seasonal vegetables, tossed with a light dressing for a healthy and refreshing dish.",
+    "category": "🍲 رستوران",
+    "name": "🥗 سالاد",
+    "description": "سالاد تازه و ترد با سبزیجات فصلی، با dressing سبک برای غذای سالم و تازه. 🌱",
     "price": 6.00,
     "image": "assets/Salad.WebP"
   }

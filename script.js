@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+  /* Function to convert numbers to Persian digits */
+  function toPersianNum(num) {
+    const persianDigits = '۰۱۲۳۴۵۶۷۸۹'.split('');
+    return num.toString().replace(/\d/g, d => persianDigits[d]);
+  }
+
+  /* Format money in Tooman with Persian digits */
+  const formatMoney = num => toPersianNum((Number(num) || 0).toFixed(2)) + ' تومان';
+
   /* Fetch and Render Menu Items */
   const menuGrid = document.querySelector('.menu-grid');
   const menuFilters = document.querySelector('.menu-filters');
@@ -12,18 +21,18 @@ document.addEventListener('DOMContentLoaded', () => {
       // Extract unique categories dynamically
       const categories = [...new Set(data.map(item => item.category))].sort();
 
-      // Dynamically generate filter buttons, including "All"
+      // Dynamically generate filter buttons, including "همه"
       const allButton = document.createElement('button');
       allButton.className = 'filter-btn active';
       allButton.dataset.filter = 'all';
-      allButton.textContent = 'All';
+      allButton.textContent = '🌟 همه';
       menuFilters.appendChild(allButton);
 
       categories.forEach(cat => {
         const btn = document.createElement('button');
         btn.className = 'filter-btn';
         btn.dataset.filter = cat;
-        btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1); // Capitalize for display
+        btn.textContent = cat; // Categories already have emojis
         menuFilters.appendChild(btn);
       });
 
@@ -39,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3>${item.name}</h3>
             <p>${item.description}</p>
             <div class="menu-item-footer">
-              <span class="price">$${item.price.toFixed(2)}</span>
+              <span class="price">${formatMoney(item.price)}</span>
               <button class="add-to-cart-btn">+</button>
             </div>
           </div>
@@ -67,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => {
       console.error('Error loading menu:', error);
-      menuGrid.innerHTML = '<p style="text-align: center; color: red;">Failed to load menu. Please try again later.</p>';
+      menuGrid.innerHTML = '<p style="text-align: center; color: red;">بارگیری منو ناموفق بود. لطفاً بعداً امتحان کنید. 😔</p>';
     });
 
   /* Smooth scroll for anchors */
@@ -120,8 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const cartEmpty = cartDropdown.querySelector('.cart-empty');
   const cartCount = document.querySelector('.cart-count');
 
-  const formatMoney = num => '$' + (Number(num) || 0).toFixed(2);
-  const recalcBadge = () => cartCount.textContent = cart.reduce((s, i) => s + i.qty, 0);
+  const recalcBadge = () => cartCount.textContent = toPersianNum(cart.reduce((s, i) => s + i.qty, 0));
 
   const updateCart = () => {
     cartList.innerHTML = '';
@@ -134,11 +142,11 @@ document.addEventListener('DOMContentLoaded', () => {
         li.className = 'cart-item';
         li.innerHTML = `
           <img src="${item.img}" alt="${item.name}" class="cart-thumb" />
-          <span class="cart-item-name" title="View details">${item.name}</span>
+          <span class="cart-item-name" title="مشاهده جزئیات">${item.name}</span>
           <div class="cart-item-controls">
-            <button class="decrease" aria-label="Decrease quantity">-</button>
-            <span class="cart-item-qty">${item.qty}</span>
-            <button class="increase" aria-label="Increase quantity">+</button>
+            <button class="decrease" aria-label="کاهش تعداد">-</button>
+            <span class="cart-item-qty">${toPersianNum(item.qty)}</span>
+            <button class="increase" aria-label="افزایش تعداد">+</button>
           </div>
           <span class="cart-item-price">${formatMoney(item.price * item.qty)}</span>
         `;
@@ -147,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         li.querySelector('.cart-item-name').addEventListener('click', e => {
           e.stopPropagation();
-          alert(`Order Details:\n\n${item.name}\nUnit: ${formatMoney(item.price)}\nQty: ${item.qty}\nTotal: ${formatMoney(item.price * item.qty)}`);
+          alert(`جزئیات سفارش:\n\n${item.name}\nواحد: ${formatMoney(item.price)}\nتعداد: ${toPersianNum(item.qty)}\nجمع: ${formatMoney(item.price * item.qty)} ✨`);
         });
 
         li.querySelector('.increase').addEventListener('click', e => {
@@ -167,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
     const total = cart.reduce((sum, i) => sum + i.price * i.qty, 0);
-    cartTotal.textContent = `Total: ${formatMoney(total)}`;
+    cartTotal.textContent = `جمع: ${formatMoney(total)} 💰`;
     recalcBadge();
   };
 
@@ -201,11 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cart.length = 0;
     updateCart();
   });
-  cartDropdown.querySelector('.cart-checkout').addEventListener('click', e => {
-    e.stopPropagation();
-    if (!cart.length) return alert('Your cart is empty.');
-    alert('Proceeding to checkout... (demo)');
-  });
 
   /* Toast Notifications */
   const showToast = msg => {
@@ -234,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
         existing ? existing.qty++ : cart.push({ name, price, img, qty: 1 });
 
         updateCart();
-        showToast(`${name} added to cart ✔`);
+        showToast(`${name} به سبد خرید اضافه شد ✔✨`);
         openCart();
       });
     });
