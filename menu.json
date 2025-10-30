@@ -1,0 +1,478 @@
+[
+  {
+    "category": "coffee",
+    "name": "Double espresso",
+    "description": "Rich and intense coffee made by forcing hot water through finely ground beans, delivering bold flavor and strong aroma.",
+    "price": 2.50,
+    "image": "assets/double-espresso.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Specialty espresso",
+    "description": "Crafted with carefully selected beans and precise brewing, offering a smooth body, balanced flavor, and aromatic finish.",
+    "price": 3.50,
+    "image": "assets/specialty-espresso.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Caramel latte",
+    "description": "Sweet and creamy blend of espresso, steamed milk, and rich caramel syrup, topped with a light foam.",
+    "price": 4.50,
+    "image": "assets/caramel-latte.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Cappuccino",
+    "description": "Smooth combination of espresso, steamed milk, and a thick layer of velvety foam, offering a balanced rich flavor.",
+    "price": 3.80,
+    "image": "assets/cappuccino.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Hot chocolate",
+    "description": "Creamy and comforting drink made with steamed milk and rich chocolate, topped with a light froth or whipped cream.",
+    "price": 3.50,
+    "image": "assets/hot-chocolate.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "White chocolate",
+    "description": "Velvety and sweet drink made with steamed milk and smooth white chocolate, creating a creamy and indulgent flavor.",
+    "price": 4.00,
+    "image": "assets/white-chocolate.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Pink chocolate",
+    "description": "A creamy and sweet drink made with steamed milk and ruby (pink) chocolate, offering a fruity and smooth experience.",
+    "price": 4.20,
+    "image": "assets/pink-chocolate.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Nutella milk",
+    "description": "Rich and creamy drink made with steamed milk and smooth Nutella, delivering a chocolatey-hazelnut experience",
+    "price": 4.50,
+    "image": "assets/nutella-milk.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Ice matcha latte",
+    "description": "Chilled and refreshing drink made with finely powdered green tea and milk, served over ice for a smooth and creamy texture.",
+    "price": 4.50,
+    "image": "assets/Iced-Matcha-Latte.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Chai Latte",
+    "description": "Warm and aromatic drink made with black tea, steamed milk, and a blend of spices, creating a comforting and creamy experience.",
+    "price": 4.00,
+    "image": "assets/chai-latte.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Chamomile",
+    "description": "Soothing herbal infusion made from dried chamomile flowers, offering a gentle and calming experience.",
+    "price": 3.50,
+    "image": "assets/chamomile.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Mocha",
+    "description": "Rich and indulgent drink made with espresso, steamed milk, and chocolate, topped with a light froth.",
+    "price": 4.50,
+    "image": "assets/Mocha.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Masalan tea",
+    "description": "Refreshing and aromatic drink made by steeping selected tea leaves in hot water, offering a warm and soothing experience.",
+    "price": 3.00,
+    "image": "assets/masala_tea.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Turkish cofee",
+    "description": "Strong and aromatic coffee made by slowly brewing finely ground coffee with water (and optionally sugar) in a cezve.",
+    "price": 3.50,
+    "image": "assets/turkish-coffee.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Spirulina",
+    "description": "Nutritious and vibrant green drink made with spirulina powder and milk or water, served chilled for a smooth and refreshing experience.",
+    "price": 4.50,
+    "image": "assets/spirulina.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Iced american",
+    "description": "Chilled and smooth coffee made by pouring espresso over ice and adding cold water, delivering a refreshing and bold experience.",
+    "price": 3.50,
+    "image": "assets/Iced-Americano.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Iced latte",
+    "description": "Chilled and creamy drink made with espresso and cold milk poured over ice, creating a smooth and refreshing experience.",
+    "price": 4.00,
+    "image": "assets/iced-latte.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Strawberry frappe",
+    "description": "Sweet and icy blended drink made with strawberries, milk, and ice, topped with a light froth or whipped cream.",
+    "price": 4.50,
+    "image": "assets/Strawberry-frappe.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Green Tea",
+    "description": "Refreshing and soothing drink made by steeping high-quality green tea leaves in hot water, offering a light and calming experience.",
+    "price": 3.50,
+    "image": "assets/green-tea.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Blue white",
+    "description": "Creamy and visually striking drink made with a blend of blue butterfly pea flower and milk, served chilled for a smooth and refreshing experience.",
+    "price": 4.20,
+    "image": "assets/blue-white.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Coffee frappe",
+    "description": "Icy and creamy blended drink made with coffee, milk, and ice, topped with a light froth or whipped cream.",
+    "price": 4.50,
+    "image": "assets/coffee-frappe.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Earl Grey",
+    "description": "Aromatic and classic black tea infused with bergamot, served hot for a soothing and elegant experience.",
+    "price": 3.50,
+    "image": "assets/earl-grey.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Croissant",
+    "description": "Buttery and flaky pastry with a light, airy texture, perfect for a breakfast treat or snack.",
+    "price": 2.50,
+    "image": "assets/croissant.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Classic waffle",
+    "description": "Crispy on the outside and soft on the inside, this golden waffle is perfect for breakfast or a sweet treat, served with optional toppings.",
+    "price": 4.00,
+    "image": "assets/Classic-Waffles.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Ice cream waffle",
+    "description": "Crispy waffle topped with creamy ice cream and your choice of sweet toppings, creating a delightful dessert experience.",
+    "price": 5.50,
+    "image": "assets/Ice-cream-waffle.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Blueberry Muffin",
+    "description": "Soft and moist muffin packed with fresh blueberries, offering a sweet and tender treat.",
+    "price": 3.50,
+    "image": "assets/blueberry-muffin.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Chocolate Chip Cookie",
+    "description": "Chewy and buttery cookie loaded with rich chocolate chips, perfect for a sweet snack.",
+    "price": 2.50,
+    "image": "assets/chocolate-chip-cookie.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Cinnamon Roll",
+    "description": "Soft and fluffy pastry swirled with cinnamon and sugar, often topped with a sweet glaze.",
+    "price": 3.50,
+    "image": "assets/cinnamon-roll.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Fruit plate",
+    "description": "Fresh assortment of seasonal fruits, carefully sliced and served for a light and refreshing treat.",
+    "price": 4.00,
+    "image": "assets/fresh_fruit_plate.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Kunafa",
+    "description": "Sweet and rich Middle Eastern dessert made with shredded pastry, layered with cheese or cream, and soaked in fragrant syrup.",
+    "price": 5.50,
+    "image": "assets/kunafa.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Kunafa ice cream",
+    "description": "Creamy ice cream served with shredded pastry and sweet syrup, combining the classic flavors of kunafa in a chilled dessert.",
+    "price": 6.00,
+    "image": "assets/kunafa-ice-cream.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Ice cream cake",
+    "description": "Layered dessert combining creamy ice cream and cake, often topped with chocolate, fruits, or whipped cream.",
+    "price": 6.50,
+    "image": "assets/Ice-cream-cake.WebP"
+  },
+  {
+    "category": "coffee",
+    "name": "Chocolate cake",
+    "description": "Moist and rich chocolate cake layered with smooth chocolate frosting, perfect for a decadent dessert.",
+    "price": 5.50,
+    "image": "assets/Chocolate-cake.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Iranian breakfast",
+    "description": "Traditional Iranian breakfast featuring a variety of fresh bread, cheeses, herbs, eggs, and jams, served with tea.",
+    "price": 6.00,
+    "image": "assets/iran-breakfast.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Sausage breakfast",
+    "description": "Hearty breakfast plate with savory sausages, eggs, toast, and optional sides like tomatoes or hash browns.",
+    "price": 7.50,
+    "image": "assets/Breakfast-sausage.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Pomodora",
+    "description": "Classic breakfast dish with scrambled or fried eggs, sautéed tomatoes, and herbs, served with bread.",
+    "price": 6.50,
+    "image": "assets/pomodora-breakfast.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "American breakfast",
+    "description": "Hearty breakfast platter including eggs, bacon or sausage, toast or pancakes, and optional sides like hash browns.",
+    "price": 8.00,
+    "image": "assets/American-breakfast.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "English breakfast",
+    "description": "Traditional English breakfast featuring eggs, sausages, bacon, baked beans, grilled tomatoes, mushrooms, and toast.",
+    "price": 8.50,
+    "image": "assets/english-breakfast.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Meat lovers",
+    "description": "Hearty breakfast plate loaded with various meats like bacon, sausages, and ham, served with eggs and toast.",
+    "price": 9.00,
+    "image": "assets/meat-lovers.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Boricuas",
+    "description": "Puerto Rican-inspired breakfast featuring seasoned meats, eggs, plantains, and rice or bread.",
+    "price": 8.50,
+    "image": "assets/boricuas.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Guacamole omelette",
+    "description": "Fluffy omelette filled with creamy guacamole, served with toast or a side of fresh vegetables.",
+    "price": 7.50,
+    "image": "assets/Guacamole-omelette.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "French test",
+    "description": "Light and fluffy French toast made with bread soaked in a sweet egg mixture, often topped with syrup or powdered sugar.",
+    "price": 6.50,
+    "image": "assets/French-test.WebP"
+  },
+  {
+    "category": "breakfast",
+    "name": "Breakfast chilaquiles",
+    "description": "Traditional Mexican breakfast dish with crispy tortilla chips, scrambled eggs, cheese, salsa, and optional toppings like avocado or sour cream.",
+    "price": 8.00,
+    "image": "assets/Breakfast-chilaquiles.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Shredded kebab",
+    "description": "Tender and juicy shredded meat kebab, seasoned and grilled to perfection, served with rice or bread.",
+    "price": 12.00,
+    "image": "assets/Shredded-kebab.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Grilled chicken",
+    "description": "Chenjeh has a very pleasant taste and is a favorite of many people.",
+    "price": 11.50,
+    "image": "assets/Grilled-chicken.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Rice",
+    "description": "Steamed and fluffy white rice, perfect as a side to complement any main dish.",
+    "price": 3.50,
+    "image": "assets/rice.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Grilled chicken breast",
+    "description": "Lean and tender grilled chicken breast, seasoned with herbs and spices, served with a side of vegetables or rice.",
+    "price": 12.50,
+    "image": "assets/Grilled-chicken-breast.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Sour Chicken",
+    "description": "Tender chicken cooked in a tangy and savory sauce, served with rice or bread.",
+    "price": 12.50,
+    "image": "assets/Sour-Chicken.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Classic hamburger",
+    "description": "Juicy beef patty served in a soft bun with lettuce, tomato, onion, and pickles, with optional cheese or sauces.",
+    "price": 9.00,
+    "image": "assets/Classic-hamburger.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Hot Dog",
+    "description": "Grilled sausage served in a soft bun with ketchup, mustard, and optional toppings like onions or relish.",
+    "price": 7.00,
+    "image": "assets/hotdog.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Classic fries",
+    "description": "Crispy and golden potato fries, lightly salted and served as a perfect side or snack.",
+    "price": 3.50,
+    "image": "assets/classic-fries.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Beef fries",
+    "description": "Crispy golden fries topped with seasoned beef, melted cheese, and optional sauces for a hearty treat.",
+    "price": 6.50,
+    "image": "assets/Beef-fries.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Roast beef panini",
+    "description": "Toasted panini filled with tender roast beef, melted cheese, and fresh vegetables, served warm and crispy.",
+    "price": 8.50,
+    "image": "assets/Roast-Beef-Panini.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Breaded fillet plate",
+    "description": "Crispy breaded fish fillet served with rice, fries, or vegetables for a hearty and delicious meal.",
+    "price": 11.00,
+    "image": "assets/Breaded-fillet-plate.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Steak",
+    "description": "Juicy and tender steak grilled to perfection, seasoned with herbs and spices, served with your choice of sides.",
+    "price": 15.00,
+    "image": "assets/Steak.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Vegetable pizza",
+    "description": "Oven-baked pizza topped with fresh vegetables, melted cheese, and savory tomato sauce on a crispy crust.",
+    "price": 10.00,
+    "image": "assets/Vegetable-pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Meat and mushroom pizza",
+    "description": "Oven-baked pizza topped with savory meat, fresh mushrooms, melted cheese, and rich tomato sauce on a crispy crust.",
+    "price": 11.50,
+    "image": "assets/Meat-and-mushroom-pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Chicken Pesto Pizza",
+    "description": "Oven-baked pizza topped with tender chicken, creamy pesto sauce, melted cheese, and fresh herbs on a crispy crust.",
+    "price": 18.75,
+    "image": "assets/Chicken-Pesto-Pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Pepperoni pizza",
+    "description": "Oven-baked pizza topped with spicy pepperoni slices, melted cheese, and rich tomato sauce on a crispy crust.",
+    "price": 11.00,
+    "image": "assets/Pepperoni-pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Margherita pizza",
+    "description": "Classic oven-baked pizza topped with fresh tomatoes, mozzarella cheese, and basil on a crispy golden crust.",
+    "price": 9.50,
+    "image": "assets/Margherita-pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Garlic Steak Pizza",
+    "description": "Oven-baked pizza topped with tender steak slices, garlic, melted cheese, and fresh herbs on a crispy crust.",
+    "price": 12.50,
+    "image": "assets/Garlic-Steak-Pizza.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Pot Roast Pizza",
+    "description": "Oven-baked pizza topped with tender pot roast, melted cheese, and savory tomato sauce on a crispy crust.",
+    "price": 12.00,
+    "image": "assets/Pot-Roast-Pizzas.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Lasagna",
+    "description": "Layers of pasta, rich meat sauce, creamy béchamel, and melted cheese, baked to golden perfection.",
+    "price": 12.50,
+    "image": "assets/Lasagna.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Chicken Alfredo",
+    "description": "Creamy pasta dish with tender chicken, rich Alfredo sauce, and Parmesan cheese, served hot.",
+    "price": 12.00,
+    "image": "assets/Chicken-Alfredo.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Beef Alfredo",
+    "description": "Creamy pasta dish with tender beef, rich Alfredo sauce, and Parmesan cheese, served hot.",
+    "price": 12.50,
+    "image": "assets/Beef-Alfredo.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Chicken Pesto",
+    "description": "Pasta tossed with tender chicken, creamy pesto sauce, and fresh herbs, served hot for a flavorful meal.",
+    "price": 12.00,
+    "image": "assets/Chicken-pesto.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Soup",
+    "description": "Warm and comforting soup made with fresh ingredients, herbs, and spices, perfect as a starter or light meal.",
+    "price": 5.00,
+    "image": "assets/Soup.WebP"
+  },
+  {
+    "category": "restaurant",
+    "name": "Salad",
+    "description": "Fresh and crisp salad made with seasonal vegetables, tossed with a light dressing for a healthy and refreshing dish.",
+    "price": 6.00,
+    "image": "assets/Salad.WebP"
+  }
+]

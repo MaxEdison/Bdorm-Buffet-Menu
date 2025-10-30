@@ -1,15 +1,56 @@
 document.addEventListener('DOMContentLoaded', () => {
-  /* Animations on scroll */
-  const animatedElements = document.querySelectorAll('.animate-on-scroll');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add('is-visible');
+  /* Fetch and Render Menu Items */
+  const menuGrid = document.querySelector('.menu-grid');
+  fetch('./menu.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to load menu data');
+      return response.json();
+    })
+    .then(data => {
+      data.forEach((item, index) => {
+        const menuItem = document.createElement('div');
+        menuItem.className = 'menu-item animate-on-scroll';
+        menuItem.dataset.category = item.category;
+        menuItem.style.setProperty('--animation-order', index % 4);
+        menuItem.innerHTML = `
+          <img src="${item.image}" alt="${item.name}" class="menu-item-img">
+          <div class="menu-item-content">
+            <h3>${item.name}</h3>
+            <p>${item.description}</p>
+            <div class="menu-item-footer">
+              <span class="price">$${item.price.toFixed(2)}</span>
+              <button class="add-to-cart-btn">+</button>
+            </div>
+          </div>
+        `;
+        menuGrid.appendChild(menuItem);
+      });
+
+      // Re-observe animations after items are added
+      const animatedElements = document.querySelectorAll('.animate-on-scroll');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add('is-visible');
+        });
+      }, { threshold: 0.1 });
+      animatedElements.forEach(el => observer.observe(el));
+
+      // Re-attach add-to-cart listeners
+      attachAddToCartListeners();
+
+      // Apply initial filter (all)
+      filterButtons.forEach(btn => {
+        if (btn.classList.contains('active')) {
+          filterItems(btn.dataset.filter);
+        }
+      });
+    })
+    .catch(error => {
+      console.error('Error loading menu:', error);
+      menuGrid.innerHTML = '<p style="text-align: center; color: red;">Failed to load menu. Please try again later.</p>';
     });
-  }, { threshold: 0.1 });
-  animatedElements.forEach((el, i) => {
-    el.style.setProperty('--animation-order', i % 4);
-    observer.observe(el);
-  });
+
+  /* Animations on scroll - moved inside fetch for dynamic items */
 
   /* Smooth scroll for anchors */
   document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
@@ -30,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* Menu Filters */
   const filterButtons = document.querySelectorAll('.filter-btn');
-  const menuItems = document.querySelectorAll('.menu-item');
+  const menuItems = () => document.querySelectorAll('.menu-item'); // Dynamic query
 
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -41,12 +82,15 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
       btn.setAttribute('aria-selected', 'true');
 
-      const filter = btn.dataset.filter;
-      menuItems.forEach(item => {
-        item.style.display = (filter === 'all' || item.dataset.category === filter) ? 'flex' : 'none';
-      });
+      filterItems(btn.dataset.filter);
     });
   });
+
+  const filterItems = (filter) => {
+    menuItems().forEach(item => {
+      item.style.display = (filter === 'all' || item.dataset.category === filter) ? 'flex' : 'none';
+    });
+  };
 
   /* Cart State */
   const cart = [];
@@ -157,25 +201,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2000);
   };
 
-  /* Add To Cart Buttons */
-  document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
-    btn.addEventListener('click', e => {
-      const itemEl = e.target.closest('.menu-item');
-      const name = itemEl.querySelector('h3').textContent.trim();
-      const priceEl = itemEl.querySelector('.price');
-      const price = priceEl?.dataset?.price ?
-        parseFloat(priceEl.dataset.price) :
-        parseFloat((priceEl.textContent || '').replace(/[^\d.]/g, '')) || 0;
-      const img = itemEl.querySelector('img')?.getAttribute('src');
+  /* Add To Cart Buttons - Function to attach listeners dynamically */
+  const attachAddToCartListeners = () => {
+    document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        const itemEl = e.target.closest('.menu-item');
+        const name = itemEl.querySelector('h3').textContent.trim();
+        const priceText = itemEl.querySelector('.price').textContent.replace(/[^\d.]/g, '');
+        const price = parseFloat(priceText) || 0;
+        const img = itemEl.querySelector('img')?.getAttribute('src');
 
-      const existing = cart.find(i => i.name === name);
-      existing ? existing.qty++ : cart.push({ name, price, img, qty: 1 });
+        const existing = cart.find(i => i.name === name);
+        existing ? existing.qty++ : cart.push({ name, price, img, qty: 1 });
 
-      updateCart();
-      showToast(`${name} added to cart ✔`);
-      openCart();
+        updateCart();
+        showToast(`${name} added to cart ✔`);
+        openCart();
+      });
     });
-  });
+  };
 
   recalcBadge();
 });
