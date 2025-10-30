@@ -1,12 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+  /* Function to convert Persian digits to English digits */
+  function persianToEnglish(numStr) {
+    const p = {'۰': '0', '۱': '1', '۲': '2', '۳': '3', '۴': '4', '۵': '5', '۶': '6', '۷': '7', '۸': '8', '۹': '9'};
+    return numStr.replace(/[۰-۹]/g, d => p[d] || d);
+  }
+
   /* Function to convert numbers to Persian digits */
   function toPersianNum(num) {
     const persianDigits = '۰۱۲۳۴۵۶۷۸۹'.split('');
     return num.toString().replace(/\d/g, d => persianDigits[d]);
   }
 
-  /* Format money in Tooman with Persian digits */
-  const formatMoney = num => toPersianNum((Number(num) || 0).toFixed(2)) + ' تومان';
+  /* Format money in Tooman with Persian digits, no decimals */
+  const formatMoney = num => toPersianNum(Math.floor(Number(num) || 0)) + ' تومان';
 
   /* Fetch and Render Menu Items */
   const menuGrid = document.querySelector('.menu-grid');
@@ -210,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCart();
   });
 
+
   /* Toast Notifications */
   const showToast = msg => {
     const toast = document.createElement('div');
@@ -229,7 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.addEventListener('click', e => {
         const itemEl = e.target.closest('.menu-item');
         const name = itemEl.querySelector('h3').textContent.trim();
-        const priceText = itemEl.querySelector('.price').textContent.replace(/[^\d.]/g, '');
+        const priceDisplay = itemEl.querySelector('.price').textContent;
+        const priceText = persianToEnglish(priceDisplay).replace(/[^\d.]/g, '');
         const price = parseFloat(priceText) || 0;
         const img = itemEl.querySelector('img')?.getAttribute('src');
 
