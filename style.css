@@ -5,8 +5,8 @@
   --accent-color: #c8a064;
   --text-color: #333;
   --bg-color: #fff;
-  --header-font: 'Playfair Display', serif;
-  --body-font: 'Lora', serif;
+  --header-font: 'Lalezar', cursive;
+  --body-font: 'Vazirmatn', sans-serif;
 }
 
 * { 
@@ -24,6 +24,8 @@ body {
   color: var(--text-color);
   background: var(--bg-color);
   line-height: 1.6;
+  direction: rtl;
+  text-align: right;
 }
 
 /* Hero Section */
@@ -480,10 +482,6 @@ footer {
   cursor:pointer; 
 }
 
-.cart-actions .cart-checkout { 
-  background: var(--secondary-color); 
-  color: var(--primary-color); 
-}
 
 /* Animations */
 .animate-on-scroll { 
@@ -648,4 +646,35 @@ text-decoration: none;
   margin-top: 1.5rem;
   font-size: .9rem;
   color: rgba(255,255,255,0.75);
+}
+
+
+/* Additional RTL Adjustments */
+.hero-text, .menu-section h2, .site-footer {
+  text-align: center; /* Keep centered elements as is */
+}
+
+.menu-item-content {
+  text-align: right; /* Ensure descriptions align right in RTL */
+}
+
+.menu-item-footer {
+  flex-direction: row-reverse; /* Reverse to keep price on "left" visually in RTL (which is right) */
+}
+
+nav ul {
+  flex-direction: row-reverse; /* Reverse nav items for RTL */
+}
+
+.social-links {
+  flex-direction: row-reverse; /* Reverse social icons */
+}
+
+/* Adjust any left/right paddings/margins if needed (e.g., swap left/right) */
+nav {
+  padding: 1.2rem 5%;
+}
+
+.menu-section {
+  padding: 5rem 10%;
 }
